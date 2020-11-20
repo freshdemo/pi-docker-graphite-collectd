@@ -1,0 +1,8 @@
+interface               rx_bytes:DERIVE:0:U, tx_bytes:DERIVE:0:U, rx_pkts:DERIVE:0:U, tx_pkts:DERIVE:0:U, rx_err:DERIVE:0:U, tx_err:DERIVE:0:U
+my_cpu               mgmt:GAUGE:0:4294967295, dp:GAUGE:0:4294967295
+my_mem               re0:GAUGE:0:281474976710656, re1:GAUGE:0:281474976710656
+my_temp		re0:GAUGE:0:4294967295, re1:GAUGE:0:4294967295
+pa220_mgmt_mem		mgmtmem:GAUGE:0:4119684
+pa220_disk_log		disklog:GAUGE:0:4820296
+pa220_disk_root		diskroot:GAUGE:0:3937100
+
